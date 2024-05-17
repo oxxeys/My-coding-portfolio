@@ -10,7 +10,8 @@ This is an exmaple of vera molnars work, where she uses generated boxes to creat
 
 I was influenced by this and I created my own take on the use of boxes creating a tiling pattern.
 [Run my example code](_creativeCode/molnar-boxes/index.html)
-(this link does not work currently and I must ask dave about it, using _posts/ takes it to _posts/_posts/ while not using _posts/ means that the  
+(this link does not work currently, the running code does not run)
+
 
 Here is an example of some of the code I used:
 ```
