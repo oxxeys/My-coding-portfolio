@@ -9,7 +9,7 @@ This is an example of what one of my completed pages will look like, though this
 This is an exmaple of vera molnars work, where she uses generated boxes to create a tiling effect. 
 
 I was influenced by this and I created my own take on the use of boxes creating a tiling pattern.
-[Run my example code](_posts/_creativeCode/molnar-boxes/index.html)
+[Run my example code](/_creativeCode/molnar-boxes/index.html)
 
 Here is an example of some of the code I used:
 ```
