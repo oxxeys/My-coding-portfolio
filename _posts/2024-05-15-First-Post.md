@@ -6,11 +6,17 @@ This is my first post!
 This is an example of what one of my completed pages will look like, though this is just an example filled with the individual  parts.
 
 (image doesnt load on the website, not sure why)
-<img src="_images/verha_molnar_images_test.png" alt="alt text" width="200">
+<br>
+<img src="https://github.com/oxxeys/My-coding-portfolio/blob/main/_images/verha_molnar_images_test.png" alt="alt text" width="200">
+
+![inspired by Vera Molnars work](https://github.com/oxxeys/My-coding-portfolio/_images/verha_molnar_images_test.png)
+![inspired by Vera Molnars work](/My-coding-portfolio/_images/verha_molnar_images_test.png)
+<br>
+
 This is an exmaple of vera molnars work, where she uses generated boxes to create a tiling effect. 
 
 I was influenced by this and I created my own take on the use of boxes creating a tiling pattern.
-[Run my example code](_creativeCode/molnar-boxes/index.html)
+[Run my example code](/My-coding-portfolio/_creativeCode/molnar-boxes/index.html)
 (this link does not work currently, the running code does not run)
 
 
