@@ -6,6 +6,7 @@ This is my first post!
 This is an example of what one of my completed pages will look like, though this is just an example filled with the individual  parts.
 
 (image doesnt load on the website, not sure why)
+<br>
 <img src="/_images/verha_molnar_images_test.png" alt="alt text" width="200">
 <br>
 
