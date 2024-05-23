@@ -7,6 +7,7 @@ This is an example of what one of my completed pages will look like, though this
 
 (image doesnt load on the website, not sure why)
 <img src="/_images/verha_molnar_images_test.png" alt="alt text" width="200">
+<br>
 This is an exmaple of vera molnars work, where she uses generated boxes to create a tiling effect. 
 
 I was influenced by this and I created my own take on the use of boxes creating a tiling pattern.
