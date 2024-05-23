@@ -8,6 +8,8 @@ This is an example of what one of my completed pages will look like, though this
 (image doesnt load on the website, not sure why)
 <br>
 <img src="https://github.com/oxxeys/My-coding-portfolio/_images/verha_molnar_images_test.png" alt="alt text" width="200">
+![inspired by Vera Molnars work](https://github.com/oxxeys/My-coding-portfolio/_images/verha_molnar_images_test.png)
+![inspired by Vera Molnars work](/My-coding-portfolio/_images/verha_molnar_images_test.png)
 <br>
 
 This is an exmaple of vera molnars work, where she uses generated boxes to create a tiling effect. 
