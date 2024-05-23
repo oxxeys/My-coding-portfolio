@@ -7,7 +7,7 @@ This is an example of what one of my completed pages will look like, though this
 
 (image doesnt load on the website, not sure why)
 <br>
-<img src="/My-coding-portfolio/_images/verha_molnar_images_test.png" alt="alt text" width="200">
+<img src="https://github.com/oxxeys/My-coding-portfolio/_images/verha_molnar_images_test.png" alt="alt text" width="200">
 <br>
 
 This is an exmaple of vera molnars work, where she uses generated boxes to create a tiling effect. 
