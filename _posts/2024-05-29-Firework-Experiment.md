@@ -142,3 +142,5 @@ After the above experiment, I had to try a positive fall. This resulted in the f
 
 As for a final experiment, I set the speed to a much lower random number (-0.5 to 0.5). This caused an intresting effect where the "fireworks" were not being pulled so much to the side as they were being pulled down. This was caused from the gravity pulling the particles down much more as the slower (and potentially negative) speed meant they were slower to go outwards. 
 
+
+[The final p5 project](/My-coding-portfolio/_creativeCode/Firework\Final/index.html)
