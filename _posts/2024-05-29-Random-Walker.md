@@ -2,10 +2,9 @@
 title: "Random Walker"
 date: 2024-05-29
 ---
-
 This experiment is loosely inspired by Vera Molnar, who was a well known early creative coder/computer artist. One of Vera's most well known pieces is (Des)Ordres, which is a piece containing squares that are all alligned, forming a appealing pattern as can be seen below: 
 
-<img src="/My-coding-portfolio/images/verha_molnar_images_test.png" alt="alt text" width="200"> <br>
+<img src="/My-coding-portfolio/images/verha_molnar_images_test.png" alt="vera molnar example image" width="200"> <br>
 (image credit to: https://dam.org/museum/artists_ui/artists/molnar-vera/des-ordres/)
 
 
@@ -77,6 +76,7 @@ I added a mouse down function as to make the code run only when the mouse is hel
 ```
 if (mouseIsPressed) {ellipse(xPos + randNum, yPos + randNum, 1)} 
 ```
+
 <img src="/My-coding-portfolio/images/rand_walker.png" alt="alt text" width="200">
 
 
@@ -85,10 +85,44 @@ Although the piece was interactive, I wanted it to feel like the user was also h
 if (mouseIsPressed) {ellipse(xPos + randNum, yPos + randNum, 5)} 
   ellipse(yPos, xPos, 1)
 ```
+[On press code](/My-coding-portfolio/_creativeCode/RandWalker\seperate-but-bigger/index.html)
 
-[In class version](/My-coding-portfolio/_creativeCode/RandWalker\Second/index.html)
 
 
+From here I experimented around with the diffrent ways in which i could create ellipses and recreate somewhat of a simmilar style to vera molnar, that lead me to changing the ellipe stroke and size
+```
+  ellipse(xPos, yPos, 1)
+  noFill()
+  ellipse(xPos, yPos, 15)
+  noFill()
+  if (mouseIsPressed) {ellipse(xPos, yPos, 5)} 
+  noFill()
+  stroke(c,b,a)
+  if (mouseIsPressed) {ellipse(xPos, yPos, 10)} 
+  stroke(b,c,a)
+  if (mouseIsPressed) {ellipse(xPos, yPos, 15)} 
+```
+
+[inspired by vera molnar](/My-coding-portfolio/_creativeCode/RandWalker\vera-inspired/index.html)
+
+
+The final experiment I wanted to play around with was changing the ellipse to squares as well as adding a element of visual chaos to the screen as the previous iterations of this project have been very uniform.
+```
+  let rand1 = random(5,-5)
+  let rand2 = random(10,-10)
+  let rand3 = random(15,-15)
+  
+  square(xPos+rand1/rand2, yPos+rand1/rand3, 3)
+  if (mouseIsPressed) {square(xPos + rand1, yPos+ rand1, 5)} 
+  noFill()
+  stroke(c,b,a)
+  if (mouseIsPressed) {square(xPos + rand2, yPos+ rand2, 10)} 
+  stroke(b,c,a)
+  if (mouseIsPressed) {square(xPos+ rand3, yPos+ rand3, 15)} 
+  
+```
+
+[inspired by vera molnar](/My-coding-portfolio/_creativeCode/RandWalker\final/index.html)
 
 
 
