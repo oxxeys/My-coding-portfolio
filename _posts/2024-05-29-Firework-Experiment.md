@@ -34,6 +34,7 @@ From here the next goal was to make the ellipse move randomly, which the followi
     this.moveY=sin(this.a)*this.speed
 ```
 The above picks a random angle of a full circle then converts that to a x and y coordinate 
+[Move the ellipse to the right](/My-coding-portfolio/_creativeCode/Firework\Move-randomly/index.html)
 
 From here I added a number of things to the experiment:
 Firstly a mouse pressed function was added as to have the firework spawn when the mouse is clicked.
@@ -77,8 +78,20 @@ Upon updating, the class also checks if the particle is showing and if not, it r
     this.gravity=0.006
 ```
 ```
-    this.y+=this.fall
+       this.y+=this.fall
     this.fall+=this.gravity
     return this.y<height
+  }
+  
+  show(){
+    fill(255,0,0)
+    noStroke()
+    ellipse(this.x,this.y, 5)
+  }
+
 ```
-Speed, gravity and all were all also added in the particle class which allowed me to create more realistic fireworks that fell down based on gravity
+Speed, gravity and all were all also added in the particle class which allowed me to create more realistic fireworks that fell down based on gravity. I also updated the show() function as to include stying of the firework
+
+
+This is where the in class demo ends
+
