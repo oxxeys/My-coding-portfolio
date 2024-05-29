@@ -77,7 +77,7 @@ I added a mouse down function as to make the code run only when the mouse is hel
 if (mouseIsPressed) {ellipse(xPos + randNum, yPos + randNum, 1)} 
 ```
 
-<img src="/My-coding-portfolio/images/rand_walker.png" alt="alt text" width="200">
+<img src="/My-coding-portfolio/images/rand_walker.png" alt="dots on screen" width="200">
 
 
 Although the piece was interactive, I wanted it to feel like the user was also having a conversation with the machine, therefore I increased the size of the users dot and added back in a second ellipse that was automatically placed.
@@ -125,6 +125,7 @@ The final experiment I wanted to play around with was changing the ellipse to sq
 [inspired by vera molnar](/My-coding-portfolio/_creativeCode/RandWalker\final/index.html)
 
 
+Overall I really enjoyed this project as it resulted in mainly results that produced quite uniform and neat designs which is something my other experiments lack. The one area of this project that I have not likes is the edges of the screen as no matter how hard I have tried, I have been unable to have all of the ellipse allign as to make a clear grid. I am not certain why they move slightly but attribute it to being a problem with the screen size.   
 
 
 
