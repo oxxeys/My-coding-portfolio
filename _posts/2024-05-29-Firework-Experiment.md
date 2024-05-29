@@ -110,7 +110,37 @@ r is the colour, ttl is the time to live of the particle (set equal to its life 
 
 This is how the page looks after a mouse click at this point:
 <br>
-<img src="/My-coding-portfolio/images/firework-with-jean.png" alt="alt text" width="200">
+<img src="/My-coding-portfolio/images/firework-with-jean.png" alt="alt text" width="400">
 
-From here I decided to explore with changing some values of the experiment, 
+From here I decided to explore how I could take this firework, and no longer be as easy to discern that it is a firework.
 
+The first thing I did was experiment with the background, in the class demo it was set to (0,10) as to be black with a little bit of opacity as to make the firework dissapear. I played around with changing the opacity to 0, and the colour to 100. That created the following. 
+
+<img src="/My-coding-portfolio/images/firework-white-back-no-opacity.png" alt="alt text" width="400">
+
+I decided I liked the result but I did change the background colour to 0 as it was not showing through. 
+
+From here I experimented with the gravity, speed, fall and life span.
+
+
+
+<img src="/My-coding-portfolio/images/firework-fall-0.png" alt="alt text" width="400">
+
+This first experiment had me change the speed up, to a random number between 2.5 to 4.5. Then the other thing I did was add a random number between 0.1 to -0.1 which created the criss cross floating in the middle. I personally really like this experiment as each "firework" now looks like a water lilly.
+
+
+<img src="/My-coding-portfolio/images/firework-fall-negative.png" alt="alt text" width="400">
+
+The next experiment I did was to play around with the fall. After setting the fall to -5, I found that it created a much larger flower looking shape that is resemblant of grass textures in video games. The reason it looks as it does is because I kept the random gravity which means that each particle is pulled down or up randomly which creates the nice variations between them.
+
+
+<img src="/My-coding-portfolio/images/firework-fall-positive.png" alt="alt text" width="400">
+
+After the above experiment, I had to try a positive fall. This resulted in the fireworks displaying as rings and falling down. The fall is set to a much bigger number compared to above which is why the pull on each particle is much much stronger.
+
+<img src="/My-coding-portfolio/images/firework-speed-low-gravity-high.png" alt="alt text" width="400">
+
+As for a final experiment, I set the speed to a much lower random number (-0.5 to 0.5). This caused an intresting effect where the "fireworks" were not being pulled so much to the side as they were being pulled down. This was caused from the gravity pulling the particles down much more as the slower (and potentially negative) speed meant they were slower to go outwards. 
+
+
+[The final p5 project](/My-coding-portfolio/_creativeCode/Firework\Final/index.html)
