@@ -4,7 +4,7 @@ date: 2024-05-29
 ---
 This experiment plays with ellipses and making them move in random ways as to immitate fireworks.
 
-The following section was replicated from an in class demo:
+The following section was replicated from an in class demo, alongside a classmate:
 
 To start with creating a firework, we must create an ellipse that will function as one of the falling fragments of a firework. We do this in a class as later on we want to create a lot of these falling fragments, which will all add up to create the impression of a firework exploding.
 ```
@@ -34,7 +34,7 @@ From here the next goal was to make the ellipse move randomly, which the followi
     this.moveY=sin(this.a)*this.speed
 ```
 The above picks a random angle of a full circle then converts that to a x and y coordinate 
-[Move the ellipse to the right](/My-coding-portfolio/_creativeCode/Firework\Move-randomly/index.html)
+[Move the ellipse randomly](/My-coding-portfolio/_creativeCode/Firework\Move-randomly/index.html)
 
 From here I added a number of things to the experiment:
 Firstly a mouse pressed function was added as to have the firework spawn when the mouse is clicked.
@@ -91,7 +91,25 @@ Upon updating, the class also checks if the particle is showing and if not, it r
 
 ```
 Speed, gravity and all were all also added in the particle class which allowed me to create more realistic fireworks that fell down based on gravity. I also updated the show() function as to include stying of the firework
+[Last code of the class demo](/My-coding-portfolio/_creativeCode/Firework\Red-Explosion/index.html)
 
+This is where the in class demo ends.
 
-This is where the in class demo ends
+The two last things I did do with my classmate was add random colours to the firework, and make the firework fade over its lifetime.
+```
+    r = random(0,255); //generating random colours, a different set each time mouse pressed
+    g = random(0,200); 
+    b = random(0,200);
+```
+```
+  show(){
+     fill(r/this.ttl*this.lifeSpan,g/this.ttl*this.lifeSpan,b/this.ttl*this.lifeSpan) //fills with random colours that change over time
+     ellipse(this.x, this.y, this.size/15) //gets smaller over time
+```
+r is the colour, ttl is the time to live of the particle (set equal to its life span just above). The code takes the rgb colour and then divides it by how long it will be alive then times that result by its life span, which results in the colour fading to rgb 0 before it reaches the end of its life. The size is also made smaller over time as to recreate a fizzle out effect.
+
+This is how the page looks after a mouse click at this point:
+<img src="/My-coding-portfolio/images/firework-with-jean.png" alt="alt text" width="200">
+
+From here I decided to explore with changing some values of the experiment, 
 
