@@ -14,7 +14,6 @@ class Particle{
     this.y=y
     this.speed=1
   }
-  
   update(){
     this.x+=this.speed
   }
@@ -25,3 +24,74 @@ class Particle{
   
 }
 ```
+The above code creates a class named Particle, sets it x and y positions, then moves it along the x axis by its speed. This comes together to create a simple ellipse that moves to the right.
+[Move the ellipse to the right](/My-coding-portfolio/_creativeCode/Firework\Move-to-right/index.html)
+
+From here the next goal was to make the ellipse move randomly, which the following code does;
+```
+    this.a=random(TWO_PI)
+    this.moveX=cos(this.a)*this.speed
+    this.moveY=sin(this.a)*this.speed
+```
+The above picks a random angle of a full circle then converts that to a x and y coordinate 
+[Move the ellipse to the right](/My-coding-portfolio/_creativeCode/Firework\Move-randomly/index.html)
+
+From here I added a number of things to the experiment:
+Firstly a mouse pressed function was added as to have the firework spawn when the mouse is clicked.
+```
+function mousePressed(){
+  firework=new Firework(mouseX,mouseY, random(20,500))
+}
+```
+The above means that the particle will be created whenever the mouse is pressed. This uses the firework class which is a class that creates an array that holds a random number of the particles from the Particle class.
+```
+
+class Firework{
+  constructor(x,y,n){
+    this.p=[]
+    this.numParticles=n
+    for(let i=0; i<this.numParticles; i++){
+      this.p.push(new Particle(200,200))
+    }
+  }
+
+    update(){
+
+      
+      for(let i=this.p.length-1; i>=0; i--){
+        if(this.p[i].update()){
+        this.p[i].show()
+      } else {
+        // remove it
+        this.p.splice(i,1)
+      }
+    }   
+      fill(255)
+      text(this.p.length,20,20)
+  }
+}
+```
+Upon updating, the class also checks if the particle is showing and if not, it removes it from the array. In the update function there is also a piece of text which displays how many particles there currently are. 
+```
+    this.speed=random(0.2,1.5)
+    this.fall=0
+    this.gravity=0.006
+```
+```
+       this.y+=this.fall
+    this.fall+=this.gravity
+    return this.y<height
+  }
+  
+  show(){
+    fill(255,0,0)
+    noStroke()
+    ellipse(this.x,this.y, 5)
+  }
+
+```
+Speed, gravity and all were all also added in the particle class which allowed me to create more realistic fireworks that fell down based on gravity. I also updated the show() function as to include stying of the firework
+
+
+This is where the in class demo ends
+
