@@ -109,6 +109,7 @@ The two last things I did do with my classmate was add random colours to the fir
 r is the colour, ttl is the time to live of the particle (set equal to its life span just above). The code takes the rgb colour and then divides it by how long it will be alive then times that result by its life span, which results in the colour fading to rgb 0 before it reaches the end of its life. The size is also made smaller over time as to recreate a fizzle out effect.
 
 This is how the page looks after a mouse click at this point:
+<br>
 <img src="/My-coding-portfolio/images/firework-with-jean.png" alt="alt text" width="200">
 
 From here I decided to explore with changing some values of the experiment, 
