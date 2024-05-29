@@ -79,6 +79,7 @@ if (mouseIsPressed) {ellipse(xPos + randNum, yPos + randNum, 1)}
 ```
 <img src="/My-coding-portfolio/images/rand_walker.png" alt="alt text" width="200">
 
+
 Although the piece was interactive, I wanted it to feel like the user was also having a conversation with the machine, therefore I increased the size of the users dot and added back in a second ellipse that was automatically placed.
 ```
 if (mouseIsPressed) {ellipse(xPos + randNum, yPos + randNum, 5)} 
