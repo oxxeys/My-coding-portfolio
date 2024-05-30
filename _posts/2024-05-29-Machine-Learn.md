@@ -101,10 +101,41 @@ This may be a very simple experiment, but I like it as I found it really challen
 [Run the first experiment](/My-coding-portfolio/creativeCode/Cube\Default/index.html)
 
 
-From here, for my next experiment I wanted to play around with filters. For this experiment I removed the label and 
+From here, for my next experiment I wanted to play around with filters. For this experiment I decided to keep the label changing colours from the previous experiment. From here I added to the if statment above as so I could later on easily refer to each person by using an intiger.
+```
+      //person correlates to 0- no-one, 1 - Billy, 2 - Jean
+    let person = 0;
+    if (label == 'Billy'){
+      background(115,191,135);
+      person = 1
+    } else if (label == "Jean"){
+      background(252,159,184);  
+      person = 2;
+    }else{
+      background(200,159,252)
+      person = 0;
+    }
+    
+```
+Then below the if statment I added in another if statment that added a filter depending on the person the model predicted was showing. This lead to a level of interactivity I did not expect as whenever the program detected person 1, it would turn the screen completly dark 
+```
+if (person == 1){
+      filter(THRESHOLD)
+    } else if (person == 2){
+      filter(BLUR, 3)
+    } else {
+      filter(POSTERIZE, 2)
+    }
+```
+Two examples of the filters in action:
+
+<img src="/My-coding-portfolio/images/black-and-white.png" alt="Filter 1" width="200">
+<img src="/My-coding-portfolio/images/blur.png" alt="Filter 2" width="200">
 
 
 [Run the first experiment](/My-coding-portfolio/creativeCode/Cube\Filters/index.html)
+
+
 
 For the third and final experiment, I decided to add in some 3d objects as well as a panorama to make intresting camera effects.
 
