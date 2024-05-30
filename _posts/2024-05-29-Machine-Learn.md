@@ -6,7 +6,7 @@ date: 2024-05-29
 This experiment started with the exploration of teachable machine through a class demo. Teachable machine is a website provided by google that allows you to teach a machine learning model your own data through images, live webcam footage and audio. For this experiment I decided to teach the model using images provided by my webcam. An example of this process of teaching can be seen below.
 
 
-<img src="/My-coding-portfolio/images/MachineLearning.png" alt="alt text" width="200">
+<img src="/My-coding-portfolio/images/MachineLearning.png" alt="machine learning workflow example" width="200">
 
 After teaching the model, it is added into a p5 project through this code:
 ```
@@ -82,7 +82,7 @@ This goes in the html file and below goes into the javascript file.
 The above code creates a square that reflects what is shown on the web cam feed and then changes the label based on what the machine learning model predicts to be on the screen. In my code it will predict if the web cam is showing myself, jean or nothing. 
 
 
-<img src="/My-coding-portfolio/images/first-example.png" alt="alt text" width="200">
+<img src="/My-coding-portfolio/images/first-example.png" alt="picture of my first example" width="200">
 
 
 
@@ -104,7 +104,7 @@ This may be a very simple experiment, but I like it as I found it really challen
 From here, for my next experiment I wanted to play around with filters. For this experiment I removed the label and 
 
 
-
+[Run the first experiment](/My-coding-portfolio/creativeCode/Cube\Filters/index.html)
 
 For the third and final experiment, I decided to add in some 3d objects as well as a panorama to make intresting camera effects.
 
