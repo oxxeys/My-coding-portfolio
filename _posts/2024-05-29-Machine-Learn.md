@@ -7,6 +7,7 @@ This experiment started with the exploration of teachable machine through a clas
 
 
 <img src="/My-coding-portfolio/images/MachineLearning.png" alt="machine learning workflow example" width="200">
+<img src="/My-coding-portfolio/images/MachineLearning.png" alt="machine learning workflow example" width="200"> <br>
 
 After teaching the model, it is added into a p5 project through this code:
 ```
