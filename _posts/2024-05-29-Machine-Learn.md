@@ -139,5 +139,8 @@ Two examples of the filters in action:
 
 For the third and final experiment, I decided to add in some 3d objects as well as a panorama to make intresting camera effects.
 
+<img src="/My-coding-portfolio/images/ellpise.png" alt="Filter 2" width="200">
+<img src="/My-coding-portfolio/images/cube-camera.png" alt="Filter 2" width="200">
+
 
 [Run the third experiment](/My-coding-portfolio/creativeCode/Cube\cool-version/index.html)
