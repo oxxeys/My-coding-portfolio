@@ -91,7 +91,7 @@ Upon updating, the class also checks if the particle is showing and if not, it r
 
 ```
 Speed, gravity and all were all also added in the particle class which allowed me to create more realistic fireworks that fell down based on gravity. I also updated the show() function as to include stying of the firework
-[Last code of the class demo](/My-coding-portfolio/_creativeCode/Firework\Red-Explosion/index.html)
+[Last code of the class demo](/My-coding-portfolio/creativeCode/Firework\Red-Explosion/index.html)
 
 This is where the in class demo ends.
 
