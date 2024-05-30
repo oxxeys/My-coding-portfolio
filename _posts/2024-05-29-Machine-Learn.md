@@ -5,9 +5,8 @@ date: 2024-05-29
 
 This experiment started with the exploration of teachable machine through a class demo. Teachable machine is a website provided by google that allows you to teach a machine learning model your own data through images, live webcam footage and audio. For this experiment I decided to teach the model using images provided by my webcam. An example of this process of teaching can be seen below.
 
-
-<img src="/My-coding-portfolio/images/MachineLearning.png" alt="machine learning workflow example" width="200">
-<img src="/My-coding-portfolio/images/MachineLearning.png" alt="machine learning workflow example" width="200"> <br>
+<img src="/My-coding-portfolio/images/MachineLearning.png" alt="machine learning workflow example" width="200"> 
+(screenshot from : https://teachablemachine.withgoogle.com/train/)
 
 After teaching the model, it is added into a p5 project through this code:
 ```
