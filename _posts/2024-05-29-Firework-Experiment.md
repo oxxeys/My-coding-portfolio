@@ -25,7 +25,7 @@ class Particle{
 }
 ```
 The above code creates a class named Particle, sets it x and y positions, then moves it along the x axis by its speed. This comes together to create a simple ellipse that moves to the right.
-[Move the ellipse to the right](/My-coding-portfolio/_creativeCode/Firework\Move-to-right/index.html)
+[Move the ellipse to the right](/My-coding-portfolio/creativeCode/Firework\Move-to-right/index.html)
 
 From here the next goal was to make the ellipse move randomly, which the following code does;
 ```
@@ -34,7 +34,7 @@ From here the next goal was to make the ellipse move randomly, which the followi
     this.moveY=sin(this.a)*this.speed
 ```
 The above picks a random angle of a full circle then converts that to a x and y coordinate 
-[Move the ellipse randomly](/My-coding-portfolio/_creativeCode/Firework\Move-randomly/index.html)
+[Move the ellipse randomly](/My-coding-portfolio/creativeCode/Firework\Move-randomly/index.html)
 
 From here I added a number of things to the experiment:
 Firstly a mouse pressed function was added as to have the firework spawn when the mouse is clicked.
@@ -143,4 +143,4 @@ After the above experiment, I had to try a positive fall. This resulted in the f
 As for a final experiment, I set the speed to a much lower random number (-0.5 to 0.5). This caused an intresting effect where the "fireworks" were not being pulled so much to the side as they were being pulled down. This was caused from the gravity pulling the particles down much more as the slower (and potentially negative) speed meant they were slower to go outwards. 
 
 
-[The final p5 project](/My-coding-portfolio/_creativeCode/Firework\Final/index.html)
+[The final p5 project](/My-coding-portfolio/creativeCode/Firework\Final/index.html)
