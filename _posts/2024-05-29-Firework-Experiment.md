@@ -4,7 +4,9 @@ date: 2024-05-29
 ---
 This experiment plays with ellipses and making them move in random ways as to immitate fireworks.
 
-The following section was replicated from an in class demo, alongside a classmate:
+
+
+The following section was replicated from an in class demo, alongside a classmate, Jean:
 
 To start with creating a firework, we must create an ellipse that will function as one of the falling fragments of a firework. We do this in a class as later on we want to create a lot of these falling fragments, which will all add up to create the impression of a firework exploding.
 ```
@@ -106,6 +108,10 @@ The two last things I did do with my classmate was add random colours to the fir
      fill(r/this.ttl*this.lifeSpan,g/this.ttl*this.lifeSpan,b/this.ttl*this.lifeSpan) //fills with random colours that change over time
      ellipse(this.x, this.y, this.size/15) //gets smaller over time
 ```
+
+
+<h2>My own experiments:</h2>
+
 r is the colour, ttl is the time to live of the particle (set equal to its life span just above). The code takes the rgb colour and then divides it by how long it will be alive then times that result by its life span, which results in the colour fading to rgb 0 before it reaches the end of its life. The size is also made smaller over time as to recreate a fizzle out effect.
 
 This is how the page looks after a mouse click at this point:
