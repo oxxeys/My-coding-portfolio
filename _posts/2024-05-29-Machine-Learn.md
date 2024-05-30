@@ -158,7 +158,9 @@ For the third and final experiment, I decided to add in some 3d objects as well 
     box(70,70,70)
     pop();
 ```
-
+Texture is how I made the camera appear on the cube
+Panorama is how the zoomed in background effect is created
+Ambient Light and emmissive material are used to make the cube white when no-one is there.
 
 
 <img src="/My-coding-portfolio/images/ellpise.png" alt="Filter 2" width="200">
@@ -166,3 +168,7 @@ For the third and final experiment, I decided to add in some 3d objects as well 
 
 
 [Run the third experiment](/My-coding-portfolio/creativeCode/Cube\cool-version/index.html)
+
+
+
+I feel that I learnt a lot from these experiments and they encouraged me to finally delve into 3d materials and effects, something which I had been wanting to do for a while. For some reason I was really challenged by my first experiment and it reminded me to slow down and read the code that I copy from external sources. Overall I have really enjoyed this experiment and being able to create something so interactive feels very fulfilling. 
