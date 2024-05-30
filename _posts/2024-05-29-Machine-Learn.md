@@ -137,7 +137,29 @@ Two examples of the filters in action:
 
 
 
-For the third and final experiment, I decided to add in some 3d objects as well as a panorama to make intresting camera effects.
+For the third and final experiment, I decided to add in some 3d objects as well as a panorama to make intresting camera effects. To accomplish this I went to the if statment I used in my filters experiment and I changed out the filters for other effects. I also added in rotateZ,X and Y as to make the box rotate. (box is the 3d version of cube in p5)
+```
+    normalMaterial();
+    push();
+    rotateZ(frameCount * 0.01)
+    rotateX(frameCount * 0.01)
+    rotateY(frameCount * 0.01)
+    
+    if (person == 1){
+      texture(flippedVideo)
+    } else if (person == 2){
+      panorama(flippedVideo)
+      metalness(200)
+      shininess(200)
+    } else {
+      ambientLight(255,255,255)
+      emissiveMaterial(255,0,0)
+    }
+    box(70,70,70)
+    pop();
+```
+
+
 
 <img src="/My-coding-portfolio/images/ellpise.png" alt="Filter 2" width="200">
 <img src="/My-coding-portfolio/images/cube-camera.png" alt="Filter 2" width="200">
