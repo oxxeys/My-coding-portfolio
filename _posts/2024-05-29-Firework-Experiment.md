@@ -150,3 +150,8 @@ As for a final experiment, I set the speed to a much lower random number (-0.5 t
 
 
 [The final p5 project](/My-coding-portfolio/creativeCode/Firework\Final/index.html)
+
+
+
+
+I feel that working in a pair at the beggining of this project was really benificial as it gave me more of a chance to take a step back and really think about what I wanted to create by myself and it gave me room to come up with cool ideas not just by myself.
