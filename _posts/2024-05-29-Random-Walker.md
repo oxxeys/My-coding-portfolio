@@ -10,7 +10,7 @@ This experiment is loosely inspired by Vera Molnar, who was a well known early c
 
 To begin with, I started with a in class demo that focused on randomly generating small ellipses of colour around the screen.
 
-[In class version](/My-coding-portfolio/_creativeCode/RandWalker\First/index.html)
+[In class version](/My-coding-portfolio/creativeCode/RandWalker\First/index.html)
 
 The main two functions that made the code run were:
 ```
@@ -85,7 +85,7 @@ Although the piece was interactive, I wanted it to feel like the user was also h
 if (mouseIsPressed) {ellipse(xPos + randNum, yPos + randNum, 5)} 
   ellipse(yPos, xPos, 1)
 ```
-[On press code](/My-coding-portfolio/_creativeCode/RandWalker\seperate-but-bigger/index.html)
+[On press code](/My-coding-portfolio/creativeCode/RandWalker\seperate-but-bigger/index.html)
 
 
 
@@ -103,7 +103,7 @@ From here I experimented around with the diffrent ways in which i could create e
   if (mouseIsPressed) {ellipse(xPos, yPos, 15)} 
 ```
 
-[inspired by vera molnar](/My-coding-portfolio/_creativeCode/RandWalker\vera-inspired/index.html)
+[inspired by vera molnar](/My-coding-portfolio/creativeCode/RandWalker\vera-inspired/index.html)
 
 
 The final experiment I wanted to play around with was changing the ellipse to squares as well as adding a element of visual chaos to the screen as the previous iterations of this project have been very uniform.
@@ -122,7 +122,7 @@ The final experiment I wanted to play around with was changing the ellipse to sq
   
 ```
 
-[inspired by vera molnar](/My-coding-portfolio/_creativeCode/RandWalker\final/index.html)
+[inspired by vera molnar](/My-coding-portfolio/creativeCode/RandWalker\final/index.html)
 
 
 Overall I really enjoyed this project as it resulted in mainly results that produced quite uniform and neat designs which is something my other experiments lack. The one area of this project that I have not likes is the edges of the screen as no matter how hard I have tried, I have been unable to have all of the ellipse allign as to make a clear grid. I am not certain why they move slightly but attribute it to being a problem with the screen size.   
